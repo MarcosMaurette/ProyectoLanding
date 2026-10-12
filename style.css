@@ -7,6 +7,31 @@ body{
 display: flex;
 background-color: #1F2937;
 margin: 0px;
+justify-content: space-around;
+align-items: center;
+}
+
+.lista-links{
+display: flex;
+color:#F9FAF8;
+list-style-type: none;
+flex-direction: row;
+gap: 15px;
+align-items: center;
+}
+
+.rectangulo-derecha{
+    display: flex;
+    background-color: #5e6165;
+    width: 66vh;
+    height: 190px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangulo-izquierda{
+    width: 66vh;
+    height: 190px;
 }
 
 .header-logo{
@@ -21,8 +46,9 @@ background-color: #1F2937;
 color: #F9FAF8;
 font-weight: 900;
 display: flex;
-
 height: 300px;
+justify-content: center;
+align-items: center;
 }
 
 .website1{
@@ -41,15 +67,6 @@ background-color: #3882F6;
 .call-to-action{
 background-color: #3882F6;
 }
-
-.rectangulo-izquierda{
-    
-}
-
-.rectangulo-derecha{
-    
-}
-
 .footer{
 background-color: #1F2937;
 }
@@ -63,5 +80,13 @@ background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.parte-media-inferior{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
 }
 
