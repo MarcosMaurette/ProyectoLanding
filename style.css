@@ -27,11 +27,13 @@ align-items: center;
     height: 190px;
     align-items: center;
     justify-content: center;
+    white-space: pre-wrap;
 }
 
 .rectangulo-izquierda{
     width: 66vh;
     height: 190px;
+    margin: 0px;
 }
 
 .header-logo{
@@ -49,6 +51,7 @@ display: flex;
 height: 300px;
 justify-content: center;
 align-items: center;
+padding: 50px;
 }
 
 .website1{
@@ -62,6 +65,23 @@ color: #E5E7EB;
 
 .boton{
 background-color: #3882F6;
+}
+
+.p-primera-imagen{
+    display: flex;
+    width: 20vh;
+}
+
+.p-segunda-imagen{
+
+}
+
+.p-tercera-imagen{
+
+}
+
+.p-cuarta-imagen{
+
 }
 
 .call-to-action{
