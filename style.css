@@ -9,6 +9,11 @@ background-color: #1F2937;
 margin: 0px;
 }
 
+.header-logo{
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
 .parte-media-superior{
 overflow: hidden;
 margin: 0px;
@@ -23,6 +28,11 @@ height: 300px;
 
 .rectangulo-izquierda{
     
+}
+
+.rectangulo-derecha{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .footer{
