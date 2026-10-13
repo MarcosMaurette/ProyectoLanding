@@ -67,21 +67,29 @@ color: #E5E7EB;
 background-color: #3882F6;
 }
 
+.imagen-media{
+border: 5px solid #3882F6;
+
+}
+
 .p-primera-imagen{
     display: flex;
     width: 20vh;
 }
 
 .p-segunda-imagen{
-
+    display: flex;
+    width: 20vh;
 }
 
 .p-tercera-imagen{
-
+    display: flex;
+    width: 20vh;
 }
 
 .p-cuarta-imagen{
-
+    display: flex;
+    width: 20vh;
 }
 
 .call-to-action{
