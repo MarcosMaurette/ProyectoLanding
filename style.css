@@ -69,6 +69,9 @@ background-color: #3882F6;
 
 .imagen-media{
 border: 5px solid #3882F6;
+border-radius: 15%;
+width: 17vh;
+height: 17vh;;
 
 }
 
@@ -102,12 +105,17 @@ background-color: #1F2937;
 .parte-media{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
 }
 
 .parte-media-a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 .parte-media-inferior{
