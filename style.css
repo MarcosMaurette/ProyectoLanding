@@ -25,15 +25,42 @@ align-items: center;
     background-color: #5e6165;
     width: 66vh;
     height: 190px;
+    flex: 0 0 auto;
     align-items: center;
     justify-content: center;
-    white-space: pre-wrap;
+    margin: 0px;
+    margin-right: 120px;
 }
 
 .rectangulo-izquierda{
+    display: flex;
+    flex-wrap: wrap;
     width: 66vh;
     height: 190px;
     margin: 0px;
+    padding-left: 100px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding-left: 60px;
+    
+}
+
+.rectangulo-izquierda p{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.rectangulo-izquierda button{
+    display: flex;
+    width: 10vh;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: #F9FAF8;
+    border: 0;
+    border-radius: 8px;
 }
 
 .header-logo{
@@ -52,10 +79,12 @@ height: 300px;
 justify-content: center;
 align-items: center;
 padding: 50px;
+gap: 15px;
 }
 
 .website1{
 font-size: 48px;
+font-weight: 900;
 }
 
 .website2{
@@ -97,9 +126,19 @@ height: 17vh;;
 
 .call-to-action{
 background-color: #3882F6;
+margin: 30px;
+border-radius: 8px;
+overflow: hidden;
 }
+
 .footer{
+display: flex;
 background-color: #1F2937;
+color: #F9FAF8;
+margin: 0px;
+overflow: hidden;
+justify-content: center;
+align-items: center;
 }
 
 .parte-media{
@@ -138,21 +177,28 @@ background-color: #1F2937;
     display: flex;
     padding-left: 5px;
     justify-content: center;
-
+    overflow: hidden;
 }
 
 .call-to-action{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    gap: 100px;
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 45px;
     color: #F9FAF8;
-    font-weight: bold;
+    
+}
+
+.texto-superior-call-to-action{
+    font-weight: 900;
 }
 
 .boton-call-to-action{
+    display: flex;
     padding: 15px;
     height: 9px;
     border: 3px solid #fefefe;
@@ -160,10 +206,14 @@ background-color: #1F2937;
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
+    justify-content: center;
+    align-items: center;
 }
 
 .texto{
     flex-direction: column;
+    gap: 1px;
+    padding: 0px;
 }
 
 
